@@ -2,7 +2,7 @@
 
 Ensures there is an (human readable) unique slug for every document.
 
-By defaut the **title** property will be used to generate the slug and the **slug** property to save it. By providing extra options we can change this behaviour. In case of duplicated slugs a four digit random number will be appended to the generated slug.
+By defaut the **title** property will be used to generate the slug and the **slug** property to save it. By providing extra options we can change this behaviour. In case of duplicated slugs a four digit random number will be appended to the generated slug (eg. my-title-1974).
 
 This module is part of the [Lackey CMS](http://lackey.io).
 
@@ -59,6 +59,7 @@ Although it won't genereate a new slug from the source property when the option 
 
 ### logger
 By default, only errors will be logged to console. If you wish to provide your own logger just submit one that implements (some of) the following methods:
+
 	- info
 	- error
 	- debug

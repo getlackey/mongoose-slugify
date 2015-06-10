@@ -1,6 +1,6 @@
 {
     "name": "lackey-mongoose-slugify",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Create a human readable slug for a mongoose document",
     "main": "lib/index.js",
     "scripts": {
